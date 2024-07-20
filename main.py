@@ -36,7 +36,7 @@ pygame.mixer.init()
 pygame.mixer.music.load('space.ogg')
 pygame.mixer.music.play()
 
-ship = Player("rocket.png", 5, 400, 80, 100, 10)
+ship = Player("rocket.png", 5, 400, 80, 100, 50)
 
 while game:
     for event in pygame.event.get():
